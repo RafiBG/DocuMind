@@ -1,0 +1,12 @@
+Create venv (virutal envoriment) and then install the libraries.
+
+Windows 11 or 10
+You must have Python version 3.11.9 (This version is tested)
+1. python -3.11 -m venv venv or py -3.11 -m venv venv
+2. Set-ExecutionPolicy Unrestricted -Scope Process 
+3. \venv\Scripts\activate or .\\venv\Scripts\activate
+
+
+Running tests
+
+python -m pytest tests/test_ingestion.py -v

@@ -1,0 +1,27 @@
+
+# Backend
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Configuration
+python-dotenv
+pydantic-settings
+
+# AI and RAG
+langchain
+langgraph
+langchain-openai
+langchain-ollama
+langchain-chroma
+langchain-text-splitters
+
+# Vector database
+chromadb
+
+# Document processing
+pymupdf
+
+# HTTP and testing
+httpx
+pytest
