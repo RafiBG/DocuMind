@@ -1,7 +1,5 @@
-
 from pathlib import Path
 from langchain_core.documents import Document
-
 from ingestion.pdf_loader import load_pdf
 from ingestion.text_splitter import split_documents
 

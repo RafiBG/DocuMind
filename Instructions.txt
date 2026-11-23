@@ -10,3 +10,32 @@ You must have Python version 3.11.9 (This version is tested)
 Running tests
 
 python -m pytest tests/test_ingestion.py -v
+
+Libraries: 
+
+# Backend
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Configuration
+python-dotenv
+pydantic-settings
+
+# AI and RAG
+langchain
+langgraph
+langchain-openai
+langchain-ollama
+langchain-chroma
+langchain-text-splitters
+
+# Vector database
+chromadb
+
+# Document processing
+pymupdf
+
+# HTTP and testing
+httpx
+pytest

@@ -1,5 +1,4 @@
-
-import fitz
+import pymupdf
 from pathlib import Path
 from langchain_core.documents import Document
 
@@ -12,7 +11,7 @@ def load_pdf(file_path: str) -> list[Document]:
 
     documents = []
 
-    with fitz.open(pdf_path) as pdf:
+    with pymupdf.open(pdf_path) as pdf:
         for page_number, page in enumerate(pdf, start=1):
             text = page.get_text("text").strip()
 
